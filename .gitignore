@@ -22,6 +22,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# 数据文件夹中的文档（原始 PDF/Markdown 可能体积大）
-data/*.pdf
-data/*.md
+# 数据文件夹中的运行时生成数据（不入库）
+data/chroma_db/
+data/eval_results.json
+data/prompt_comparison.json
